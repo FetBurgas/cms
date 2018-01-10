@@ -1,8 +1,5 @@
 backend:
-  name: git-gateway
-  accept_roles: #optional - accepts all users if left out
-    - admin
-    - editor
+  name: github
   repo: FetBurgas/blank
 
 media_folder: media_folder
