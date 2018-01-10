@@ -5,7 +5,7 @@ media_folder: media_folder
 
 collections:
   - name: project
-    label: Project
+    label: Projects
     folder: projects
     create: true
     fields:
