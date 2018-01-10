@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
+  repo: FetBurgas/blank
+
+media_folder: media_folder
+
+collections:
+  - name: post
+    label: Post
+    folder: posts
+    create: true
+    fields:
+      - {name: title, label: Title}
+      - {name: body, label: Body, widget: markdown}
