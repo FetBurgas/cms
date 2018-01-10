@@ -5,10 +5,12 @@ backend:
 media_folder: media_folder
 
 collections:
-  - name: post
-    label: Post
-    folder: posts
+  - name: project
+    label: Project
+    folder: projects
     create: true
     fields:
-      - {name: title, label: Title}
-      - {name: body, label: Body, widget: markdown}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Publish Date", name: "datestart", widget: "datetime"}
+      - {label: "End Date", name: "dateend", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "string"}
