@@ -1,13 +1,13 @@
 backend:
   name: git-gateway
 
-media_folder: "media_folder"
+media_folder: media_folder
 
 collections:
-  - name: "post"
-    label: "Project"
-    folder: "projects"
+  - name: post
+    label: Post
+    folder: posts
     create: true
     fields:
-      - {label: "Namn", name: "name", widget: "string"}
-      - {label: "Beskrivning", name: "body", widget: "markdown"}
+      - {name: title, label: Title}
+      - {name: body, label: Body, widget: markdown}
