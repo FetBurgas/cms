@@ -4,10 +4,11 @@ backend:
 media_folder: media_folder
 
 collections:
-  - name: post
+  - name: project
     label: Projekt
     folder: projects
     create: true
     fields:
       - {name: title, label: Namn}
-      - {name: body, label: Beskrivning, widget: markdown}
+      - {name: text, label: Beskrivning, widget: text}
+      - {name: body, label: Projekt info, widget: markdown}
