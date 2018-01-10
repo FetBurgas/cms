@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: FetBurgas/blank
 
 media_folder: media_folder
