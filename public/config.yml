@@ -10,6 +10,4 @@ collections:
     create: true
     fields:
       - {label: "Name", name: "name", widget: "string"}
-      - {label: "Publish Date", name: "datestart", widget: "datetime"}
-      - {label: "End Date", name: "dateend", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
