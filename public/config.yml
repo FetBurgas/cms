@@ -5,9 +5,9 @@ media_folder: media_folder
 
 collections:
   - name: post
-    label: Post
-    folder: posts
+    label: Projekt
+    folder: projects
     create: true
     fields:
-      - {name: title, label: Title}
-      - {name: body, label: Body, widget: markdown}
+      - {name: title, label: Namn}
+      - {name: body, label: Beskrivning, widget: markdown}
